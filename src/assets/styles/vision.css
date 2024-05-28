@@ -1,0 +1,124 @@
+/* @keyframes backgroundAnimation {
+    0% {
+        background-color: #ec7c30;
+    }
+    50% {
+        background-color: #840f0f;
+    }
+    100% {
+        background-color: #ec7c30;
+    }
+}
+
+/* Keyframes for pulsating effect */
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+} */
+.vision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px; 
+  } 
+  .vision-header {
+    background-color: #ec7c30;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    clip-path: ellipse(60% 80% at 51% 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: backgroundAnimation 5s infinite, pulsate 3s infinite; /* Apply animations */
+    transition: transform 0.5s ease-in-out; /* Smooth transitions */
+    pointer-events: none;
+}
+
+
+/* .home-header {
+    animation: fadeInOut 5s infinite;
+} */
+  /* .container {
+    max-width: 900px;
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+    align-items: center;
+} */
+ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    position: relative;
+}
+
+li:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #ec7c30;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+  .vision-header h1 {
+    color: white;
+
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .vision-header::before,
+.vision-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    animation: bubble 4s infinite;
+}
+
+.vision-header::before {
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.vision-header::after {
+    left: 80%;
+    animation-delay: 2s;
+}
+
+@keyframes bubble {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-60vh) scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translateY(10vh) scale(1);
+        opacity: 0;
+    }
+}
