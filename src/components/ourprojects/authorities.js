@@ -22,9 +22,11 @@ import JDA from '../../assets/images/authorities/JDA.png'
 import GP from '../../assets/images/authorities/GP.png'
 import ANN from '../../assets/images/authorities/ANN.png'
 import IR from '../../assets/images/authorities/IR.png'
+import GAIL from '../../assets/images/authorities/GAIL.png'
+import BP from '../../assets/images/authorities/BP.png'
 
 
-const logos = [Mcd, Dda, Ndmc, Pwd, Mcg, Mcf, Huda, Ggn, Gda, GMDA, FMDA, KMC, BMC, PVVNL, NHAI, JDA, GP, ANN, IR];
+const logos = [GAIL, BP, Mcd, Dda, Ndmc, Pwd, Mcg, Mcf, Huda, Ggn, Gda, GMDA, FMDA, KMC, BMC, PVVNL, NHAI, JDA, GP, ANN, IR ];
 
 const LogoCarousel = () => {
   const settings = {

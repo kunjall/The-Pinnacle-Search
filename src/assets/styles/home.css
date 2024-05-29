@@ -133,9 +133,20 @@
     text-align: center;
   }
 
+  .compliance{
+    font-size: 2rem;
+    color: #ec7c30;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .compliances{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .client{
     font-size: 2rem;
-    margin-bottom: 100px;
     margin-top: 20px;
     color: #ec7c30;
     font-weight: bold;

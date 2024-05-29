@@ -61,6 +61,16 @@
     color: #ec7c30;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .machines{
+    font-size: 2rem;
+    color: #ec7c30;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   

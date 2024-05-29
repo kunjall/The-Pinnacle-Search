@@ -30,20 +30,20 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-function createData(Item, QTY) {
-  return { Item, QTY };
+function createData(Item) {
+  return { Item};
 }
 
 const rows = [
-  createData('HDD', 20),
-  createData('OTDR', 5),
-  createData('Splicing Machines', 12),
-  createData('Power Meter', 6),
-  createData('VFL', 12),
-  createData('Rodometer', 5),
-  createData('JCB', 1),
-  createData('Jack Hammer', 2),
-  createData('Cable Fault Locator', 1),
+  createData('HDD'),
+  createData('OTDR'),
+  createData('Splicing Machines'),
+  createData('Power Meter'),
+  createData('VFL'),
+  createData('Rodometer'),
+  createData('JCB'),
+  createData('Jack Hammer'),
+  createData('Cable Fault Locator'),
 ];
 
 export default function CustomizedTables() {
@@ -53,7 +53,6 @@ export default function CustomizedTables() {
         <TableHead>
           <TableRow>
             <StyledTableCell align="center">Item</StyledTableCell>
-            <StyledTableCell align="center">QTY(g)</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -62,7 +61,6 @@ export default function CustomizedTables() {
               <StyledTableCell component="th" scope="row">
                 {row.Item}
               </StyledTableCell>
-              <StyledTableCell align="center">{row.QTY}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>

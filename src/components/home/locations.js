@@ -15,7 +15,7 @@ import kolkataImage from '../../assets/images/kolkata.png';
 export default function MediaCard() {
   return (
     <div style={{display:'flex', flexWrap:'wrap', gap: '16px', justifyContent: 'center'}}>
-      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minHeight: 280 }}>
+      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minHeight: 100, maxHeight: 250 }}>
         <CardMedia
           sx={{ height: 150}}
           image={delhiImage}
@@ -25,14 +25,13 @@ export default function MediaCard() {
             Delhi NCR
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor quam sed ipsum varius posuere ut tempor ante. Aenean tincidunt ornare ligula id pharetra. Duis ultricies nisl vitae purus dignissim, et dapibus dolor dignissim. */}
-          </Typography>
+          Noida, Ghaziabad, Faridabad & Gurugram          </Typography>
         </CardContent>
-        <CardActions>
+        {/* <CardActions>
         <Button size="small">Learn More</Button>
-      </CardActions>
+      </CardActions> */}
       </Card>
-      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minHeight: 280 }}>
+      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minHeight: 100, maxHeight: 250 }}>
         <CardMedia
           sx={{ height: 150}}
           image={rajasthanImage}
@@ -42,14 +41,13 @@ export default function MediaCard() {
             Rajasthan
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor quam sed ipsum varius posuere ut tempor ante. Aenean tincidunt ornare ligula id pharetra. Duis ultricies nisl vitae purus dignissim, et dapibus dolor dignissim. */}
-          </Typography>
+          Jaipur, Ajmer, Chittorgarh, Jodhpur & Udaipur          </Typography>
         </CardContent>
-        <CardActions>
+        {/* <CardActions>
         <Button size="small">Learn More</Button>
-      </CardActions>
+      </CardActions> */}
       </Card>
-      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minHeight: 280 }}>
+      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minHeight: 100, maxHeight: 250 }}>
         <CardMedia
           sx={{ height: 150}}
           image={chandigarhImage}
@@ -59,15 +57,15 @@ export default function MediaCard() {
             Chandigarh
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor quam sed ipsum varius posuere ut tempor ante. Aenean tincidunt ornare ligula id pharetra. Duis ultricies nisl vitae purus dignissim, et dapibus dolor dignissim. */}
+            Mohali & Zirakpur
           </Typography>
         </CardContent>
-        <CardActions>
+        {/* <CardActions>
         <Button size="small">Learn More</Button>
-      </CardActions>
+      </CardActions> */}
       </Card>
       
-      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minHeight: 280 }}>
+      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minHeight: 100, maxHeight: 250 }}>
         <CardMedia
           sx={{ height: 150}}
           image={punjabImage}
@@ -77,14 +75,15 @@ export default function MediaCard() {
             Punjab
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor quam sed ipsum varius posuere ut tempor ante. Aenean tincidunt ornare ligula id pharetra. Duis ultricies nisl vitae purus dignissim, et dapibus dolor dignissim. */}
+            Jallandhar, Ludhiana & Amritsar
           </Typography>
+
         </CardContent>
-        <CardActions>
+        {/* <CardActions>
         <Button size="small">Learn More</Button>
-      </CardActions>
+      </CardActions> */}
       </Card>
-      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minheight: 280 }}>
+      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minheight: 100, maxHeight: 250 }}>
         <CardMedia
           sx={{ height: 150}}
           image={kolkataImage}
@@ -97,9 +96,9 @@ export default function MediaCard() {
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor quam sed ipsum varius posuere ut tempor ante. Aenean tincidunt ornare ligula id pharetra. Duis ultricies nisl vitae purus dignissim, et dapibus dolor dignissim. */}
           </Typography>
         </CardContent>
-        <CardActions>
+        {/* <CardActions>
         <Button size="small">Learn More</Button>
-      </CardActions>
+      </CardActions> */}
       </Card>
     </div>
   );

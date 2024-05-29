@@ -3,6 +3,7 @@ import '../../assets/styles/home.css';
 import Cards from '../home/cards'
 import Locations from '../home/locations'
 import Story from '../home/story'
+import Compliance from '../home/compliances'
 import NearMeIcon from '@mui/icons-material/NearMe';
 import BuildIcon from '@mui/icons-material/Build';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
@@ -10,6 +11,7 @@ import PeopleIcon from '@mui/icons-material/People';
 import Airtel from '../../assets/images/airtel.png'
 import Jio from '../../assets/images/jio.png'
 import Indus from '../../assets/images/indus.png'
+import AssuredWorkloadIcon from '@mui/icons-material/AssuredWorkload';
 
 const Home = () => {
   return (
@@ -43,6 +45,9 @@ const Home = () => {
         <img src={Indus} alt='Indus Networks'></img>
       </div>
       </div>
+      <div className='compliance'>
+        <p className='compliances'><AssuredWorkloadIcon style={{ color: 'black' }} /> Government Compliance</p>
+      <Compliance /></div>
     </div>
   );
 };
