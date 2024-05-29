@@ -16,7 +16,7 @@ const Navbar = () => {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<OurProjects />} />
         <Route path="/contact" element={<ContactUs />} />
-        <Route path="/what-we-do" element={<WhatWeDo />} />
+        <Route path="/what-we-offer" element={<WhatWeDo />} />
         <Route path="/our-vision" element={<OurVision />} />
       </Routes>
     </Router>

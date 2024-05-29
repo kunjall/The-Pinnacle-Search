@@ -1,18 +1,23 @@
 import React from 'react';
-import '../../assets/styles/vision.css';
+import '../../assets/styles/projects.css';
+import List from '../ourprojects/executed'
+import Authority from '../ourprojects/authorities'
 
 const Vision = () => {
   return (
-    <div className="home">
-      <header className="home-header">
-        <h1>Delivering Excellence to our Valued Partners</h1>
-        <div className="bubbles-container"></div>
+    <div className="project">
+      <header className="project-header">
+        <h1>Delivering Excellence to our Valued Customers</h1>
+        
       </header>
-<div class="container">
- 
-  </div>
-
-      
+      <div className="months"> 
+        <p className='month'> Projects executed in the last 6 months</p>
+        </div>
+      <List />
+      <div className="authorities">
+        <p className='month'> Projects executed for the following authorities</p>
+        </div>      
+        <Authority />
     </div>
   );
 };

@@ -1,16 +1,3 @@
-/* @keyframes backgroundAnimation {
-    0% {
-        background-color: #ec7c30;
-    }
-    50% {
-        background-color: #840f0f;
-    }
-    100% {
-        background-color: #ec7c30;
-    }
-}
-
-/* Keyframes for pulsating effect */
 @keyframes fadeInOut {
     0%, 100% {
         opacity: 0;

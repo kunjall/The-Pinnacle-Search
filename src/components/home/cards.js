@@ -7,7 +7,7 @@ import mastImage from '../../assets/images/mast.png'; // Make sure the path is c
 
 export default function MediaCard() {
   return (
-    <div style={{ display: 'flex', gap: '16px' }}>
+    <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', justifyContent: 'center' }}>
       <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 } }}>
         <CardMedia
           sx={{ height: 200 }}
