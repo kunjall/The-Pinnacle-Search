@@ -23,7 +23,7 @@ const Home = () => {
         <p>Content goes here...</p>
       </div> */}
       <div className='cards'>
-        <p className='products'><BuildIcon style={{ color: 'black' }} />   Our Products</p>
+        <p className='products'><BuildIcon style={{ color: 'black' }} />   Our Services</p>
       <Cards /></div>
       <div className='locations'>
       <p className='location'><NearMeIcon style={{ color: 'black', alignItems: 'center' }} />   Our Presence</p>
