@@ -51,6 +51,29 @@ nav ul li a:hover {
 nav ul li a.active {
     color: #ec7c30; /* Color for active link */
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  position: relative;
+}
+
+li:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  /* background-color: #ec7c30; */
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
 /* 
 .hamburger {
   display: none;
