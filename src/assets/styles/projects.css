@@ -18,8 +18,10 @@
     z-index: 1;
   }
   
-    .project-header {
+  .project-header {
     background-image: url('../images/tower.jpeg');
+    background-size: cover;
+    background-position: center;
     height: 50vh;
     width: 100%;
     position: relative;
@@ -28,21 +30,39 @@
     justify-content: center;
     flex-direction: column;
     z-index: 2;
+    text-align: center;
+    padding: 20px;
   }
-
-
-.project-header p {
-  z-index: 2;
-}
-
-
+  
   .project-header h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 3vw;
     margin: 0;
     z-index: 2;
   }
-
+  
+  @media (max-width: 768px) {
+    .project-header {
+      height: 40vh;
+      padding: 10px;
+    }
+  
+    .project-header h1 {
+      font-size: 5vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project-header {
+      height: 30vh;
+      padding: 5px;
+    }
+  
+    .project-header h1 {
+      font-size: 7vw;
+    }
+  }
+  
 
   .months{
     font-size: 2rem;

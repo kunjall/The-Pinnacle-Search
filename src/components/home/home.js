@@ -4,6 +4,7 @@ import Cards from '../home/cards'
 import Locations from '../home/locations'
 import Story from '../home/story'
 import Compliance from '../home/compliances'
+import Footer from '../Footer/footer'
 import NearMeIcon from '@mui/icons-material/NearMe';
 import BuildIcon from '@mui/icons-material/Build';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
@@ -48,6 +49,7 @@ const Home = () => {
       <div className='compliance'>
         <p className='compliances'><AssuredWorkloadIcon style={{ color: 'black' }} /> Government Compliance</p>
       <Compliance /></div>
+      <Footer />
     </div>
   );
 };

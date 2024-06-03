@@ -2,6 +2,8 @@ import React from 'react';
 import '../../assets/styles/vision.css';
 import '../ourvision/valuecards'
 import ValuesCard from '../ourvision/valuecards';
+import Footer from '../Footer/footer'
+
 
 const Vision = () => {
 
@@ -13,6 +15,7 @@ const Vision = () => {
       <div className="container">
         <ValuesCard />
       </div>
+      <Footer />
     </div>
   );
 };

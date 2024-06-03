@@ -1,8 +1,10 @@
 import React from 'react';
+import Footer from '../Footer/footer'
 import '../../assets/styles/contact.css';
 
 const ContactUs = () => {
   return (
+    <div>
     <div className="container">
       <span className="big-circle"></span>
       <img src="img/shape.png" className="square" alt="" />
@@ -49,6 +51,8 @@ const ContactUs = () => {
         </div>
       </div>
     </div>
+    <Footer />
+  </div>
   );
 };
 

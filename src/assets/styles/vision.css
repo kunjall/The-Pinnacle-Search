@@ -5,7 +5,6 @@
     justify-content: center;
     padding-top: 0px; 
 }
-
 .vision-header::before {
     content: '';
     position: absolute;
@@ -15,10 +14,12 @@
     height: 100%;
     background-color: rgba(236, 123, 48, 0.432); 
     z-index: 1;
-}
-
-.vision-header {
+  }
+  
+  .vision-header {
     background-image: url('../images/tower.jpeg');
+    background-size: cover;
+    background-position: center;
     height: 50vh;
     width: 100%;
     position: relative;
@@ -26,16 +27,40 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    z-index: 1;
-}
-
-.vision-header h1 {
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .vision-header h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 3vw;
     margin: 0;
     z-index: 2;
-}
-
+  }
+  
+  @media (max-width: 768px) {
+    .vision-header {
+      height: 40vh;
+      padding: 10px;
+    }
+  
+    .vision-header h1 {
+      font-size: 5vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .vision-header {
+      height: 30vh;
+      padding: 5px;
+    }
+  
+    .vision-header h1 {
+      font-size: 7vw;
+    }
+  }
+  
 /* .home-header {
     animation: fadeInOut 5s infinite;
 } */

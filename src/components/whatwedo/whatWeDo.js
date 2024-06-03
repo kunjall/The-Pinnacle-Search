@@ -4,6 +4,8 @@ import List from '../whatwedo/capabilities'
 // import Manpower from '../whatwedo/manpower'
 import Machinery from '../whatwedo/machinery'
 import Manpower from '../../assets/images/manpower.png'
+import Footer from '../Footer/footer'
+
 
 const Vision = () => {
   return (
@@ -23,7 +25,8 @@ const Vision = () => {
       <div className="machines">
         <p className='machine'> Machinery & Tools</p>
       </div>      
-      <Machinery />
+      <Machinery  />
+      <Footer style={{marginTop: '20px'}} />
     </div>
   );
 };

@@ -3,8 +3,6 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import CardActions from '@mui/material/CardActions';
-import Button from '@mui/material/Button';
 import delhiImage from '../../assets/images/delhi-ncr.png'; 
 import rajasthanImage from '../../assets/images/rajasthan.png'; 
 import chandigarhImage from '../../assets/images/chandigarh.png'; 
