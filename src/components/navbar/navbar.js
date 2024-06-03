@@ -6,7 +6,7 @@ import Home from '../home/home';
 import OurProjects from '../ourprojects/ourProjects';
 import ContactUs from '../contactus/contactUs';
 import WhatWeDo from '../whatwedo/whatWeDo';
-import OurVision from '../ourvision/ourVision'
+import OurVision from '../ourvision/values'
 
 const Navbar = () => {
   return (

@@ -15,7 +15,7 @@ const Vision = () => {
         </div>
       <List />
       <div className="authorities">
-        <p className='month'> Projects executed for the following authorities</p>
+        <p className='month'> Projects executed for customers in below authorities</p>
         </div>      
         <Authority />
     </div>

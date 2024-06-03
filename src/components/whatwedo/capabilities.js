@@ -25,14 +25,24 @@ export default function BasicStack() {
   return (
     <Box sx={{ width: '80%', padding: '20px' }}>
       <Stack spacing={1}>
-        <Item sx={{ fontSize: '16px' }}>
+      <Item sx={{ fontSize: '16px' }}>
           <b>
             Full Turnkey Telecom Implementation team for Fibre BTS installation,Installation GSM Antennae, MW Link, Electrical, Civil & Infra Equipments.
           </b>
         </Item>
         <Item sx={{ fontSize: '16px' }}>
           <b>
+            Construction of roads, flyovers, bridges & hangars.
+          </b>
+        </Item>
+        <Item sx={{ fontSize: '16px' }}>
+          <b>
             Tower Site Acquisition from Govt & Private agencies.
+          </b>
+        </Item>
+        <Item sx={{ fontSize: '16px' }}>
+          <b>
+            Supply and Installation of prefabricated structures.
           </b>
         </Item>
         <Item sx={{ fontSize: '16px' }}>
