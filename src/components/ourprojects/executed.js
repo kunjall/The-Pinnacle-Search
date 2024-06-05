@@ -26,31 +26,23 @@ export default function BasicStack() {
     <Box sx={{ width: '80%', padding: '20px' }}>
 
       <Stack spacing={1}>
-        <Item sx={{fontSize: '16px'}}><b>300+ kms FTTH Rollout in UG executed in Delhi.
+        <Item sx={{fontSize: '16px'}}><b>FTTH Rollout in UG executed in Delhi, UP & Rajasthan.
         </b></Item>
-        <Item sx={{fontSize: '16px'}}><b>100+ kms FTTH Rollout  in UG executed in UP.
+        {/* <Item sx={{fontSize: '16px'}}><b>100+ kms FTTH Rollout  in UG executed in UP.
 
         </b></Item>
         <Item sx={{fontSize: '16px'}}><b>95+ Kms FTTH Rollout in UG executed in Rajasthan.
+        </b></Item> */}
+        <Item sx={{fontSize: '16px'}}><b>FTTB sites executed Delhi, UP & Rajasthan
         </b></Item>
-        <Item sx={{fontSize: '16px'}}><b>15 FTTB sites executed in total in above Delhi, UP, Rajasthan
-        </b></Item>
-        <Item sx={{fontSize: '16px'}}><b>37000+ Home passes delivered in Flat Bed Areas.
+        <Item sx={{fontSize: '16px'}}><b>Home passes delivered in Flat Bed Areas, High Rise Buildings & Structured Aerial Cabling.
 
         </b></Item>
-        <Item sx={{fontSize: '16px'}}><b>2100+ Homepasses delivered in High Rise Buildings.
+       
+        <Item sx={{fontSize: '16px'}}><b>Tower Site Acquisitions done in NCR / Chandigarh.
 
 </b></Item>
-<Item sx={{fontSize: '16px'}}><b>2100+ Homepasses delivered in High Rise Buildings.
-
-</b></Item>
-        <Item sx={{fontSize: '16px'}}><b>6300+ Home passes delivered thrrough Structured Aerial Cabling.
-
-        </b></Item>
-        <Item sx={{fontSize: '16px'}}><b>250+ Tower Site Acquisitions done in NCR / Chandigarh.
-
-</b></Item>
-<Item sx={{fontSize: '16px'}}><b>100+ kms FTTH  Rollout in Overhead executed in UP.
+<Item sx={{fontSize: '16px'}}><b>FTTH  Rollout in Overhead executed in UP.
 
 </b></Item>
 
