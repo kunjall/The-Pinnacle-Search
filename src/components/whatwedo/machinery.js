@@ -12,11 +12,16 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: theme.palette.common.black,
     color: theme.palette.common.white,
-    fontSize: 14, // Font size for table head
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    padding: '10px',
   },
   [`&.${tableCellClasses.body}`]: {
-    fontSize: 14, // Font size for table body
-    textAlign: 'center', // Center align table cell content
+    fontSize: 14,
+    textAlign: 'center',
+    padding: '10px',
+    color: '#555',
   },
 }));
 
@@ -24,22 +29,32 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   '&:nth-of-type(odd)': {
     backgroundColor: theme.palette.action.hover,
   },
-  // hide last border
+  '&:hover': {
+    backgroundColor: theme.palette.action.selected,
+  },
   '&:last-child td, &:last-child th': {
     border: 0,
   },
 }));
 
+const TableWrapper = styled(TableContainer)(({ theme }) => ({
+  width: '80%',
+  margin: '20px auto',
+  boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)',
+  borderRadius: '10px',
+  overflow: 'hidden',
+}));
+
 function createData(Item) {
-  return { Item};
+  return { Item };
 }
 
 const rows = [
-  createData('HDD'),
-  createData('OTDR'),
+  createData('Horizontal Directional Drilling'),
+  createData('optical time-domain reflectometer'),
   createData('Splicing Machines'),
   createData('Power Meter'),
-  createData('VFL'),
+  createData('Visual Fault Locator'),
   createData('Rodometer'),
   createData('JCB'),
   createData('Jack Hammer'),
@@ -48,11 +63,11 @@ const rows = [
 
 export default function CustomizedTables() {
   return (
-    <TableContainer component={Paper} sx={{ width: '80%', margin: 'auto' }}> {/* Adjust width and margin */}
+    <TableWrapper component={Paper}>
       <Table aria-label="customized table">
         <TableHead>
           <TableRow>
-            <StyledTableCell align="center">Item</StyledTableCell>
+            <StyledTableCell align="center">List of Machinery</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -65,6 +80,6 @@ export default function CustomizedTables() {
           ))}
         </TableBody>
       </Table>
-    </TableContainer>
+    </TableWrapper>
   );
 }

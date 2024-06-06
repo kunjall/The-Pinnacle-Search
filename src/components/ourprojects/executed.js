@@ -26,7 +26,7 @@ export default function BasicStack() {
     <Box sx={{ width: '80%', padding: '20px' }}>
 
       <Stack spacing={1}>
-        <Item sx={{fontSize: '16px'}}><b>FTTH Rollout in UG executed in Delhi, UP & Rajasthan.
+        <Item sx={{fontSize: '16px'}}><b>FTTH Rollout in UG in Delhi, UP & Rajasthan.
         </b></Item>
         {/* <Item sx={{fontSize: '16px'}}><b>100+ kms FTTH Rollout  in UG executed in UP.
 
@@ -35,16 +35,14 @@ export default function BasicStack() {
         </b></Item> */}
         <Item sx={{fontSize: '16px'}}><b>FTTB sites executed Delhi, UP & Rajasthan
         </b></Item>
-        <Item sx={{fontSize: '16px'}}><b>Home passes delivered in Flat Bed Areas, High Rise Buildings & Structured Aerial Cabling.
+        <Item sx={{fontSize: '16px'}}><b>Home passes delivered in Flat Bed Areas, High Rise Buildings & through Structured Aerial Cabling.
 
         </b></Item>
        
-        <Item sx={{fontSize: '16px'}}><b>Tower Site Acquisitions done in NCR / Chandigarh.
+        <Item sx={{fontSize: '16px'}}><b>Acquired Tower Sites in Delhi, NCR & Chandigarh.
 
 </b></Item>
-<Item sx={{fontSize: '16px'}}><b>FTTH  Rollout in Overhead executed in UP.
 
-</b></Item>
 
       </Stack>
     </Box>
