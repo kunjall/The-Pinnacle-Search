@@ -74,9 +74,9 @@ const Home = () => {
           <img src={Indus} alt='Indus Networks' />
           <img src={VI} alt='Vodafone Idea' />
           <img src={AIIMS} alt='AIIMS' />
-          <img src={PGIMS} alt='Vodafone Idea' />
-          <img src={HMC} alt='Vodafone Idea' />
-          <img src={ODISHA} alt='Vodafone Idea' />
+          <img src={PGIMS} alt='PGIMS' />
+          <img src={HMC} alt='HMC' />
+          <img src={ODISHA} alt='OSMC' />
 
         </div>
       </div>
