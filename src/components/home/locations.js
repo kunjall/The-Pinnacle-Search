@@ -8,6 +8,8 @@ import rajasthanImage from '../../assets/images/rajasthan.png';
 import chandigarhImage from '../../assets/images/chandigarh.png'; 
 import punjabImage from '../../assets/images/punjab.png'; 
 import kolkataImage from '../../assets/images/kolkata.png'; 
+import odishaImage from '../../assets/images/ODISHA.jpeg'; 
+import maharashtraImage from '../../assets/images/Maharashtra.jpeg'; 
 
 
 export default function MediaCard() {
@@ -89,6 +91,40 @@ export default function MediaCard() {
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" color= "#ec7c30" fontWeight={'bold'}>
             Kolkata
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor quam sed ipsum varius posuere ut tempor ante. Aenean tincidunt ornare ligula id pharetra. Duis ultricies nisl vitae purus dignissim, et dapibus dolor dignissim. */}
+          </Typography>
+        </CardContent>
+        {/* <CardActions>
+        <Button size="small">Learn More</Button>
+      </CardActions> */}
+      </Card>
+      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minheight: 100, maxHeight: 250 }}>
+        <CardMedia
+          sx={{ height: 150}}
+          image={maharashtraImage}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div" color= "#ec7c30" fontWeight={'bold'}>
+            Maharashtra
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor quam sed ipsum varius posuere ut tempor ante. Aenean tincidunt ornare ligula id pharetra. Duis ultricies nisl vitae purus dignissim, et dapibus dolor dignissim. */}
+          </Typography>
+        </CardContent>
+        {/* <CardActions>
+        <Button size="small">Learn More</Button>
+      </CardActions> */}
+      </Card>
+      <Card sx={{ maxWidth: 345, borderRadius: 2, boxShadow: 3, '&:hover': { boxShadow: 6 }, width: 2000, minheight: 100, maxHeight: 250 }}>
+        <CardMedia
+          sx={{ height: 150}}
+          image={odishaImage}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div" color= "#ec7c30" fontWeight={'bold'}>
+            Odisha
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras auctor quam sed ipsum varius posuere ut tempor ante. Aenean tincidunt ornare ligula id pharetra. Duis ultricies nisl vitae purus dignissim, et dapibus dolor dignissim. */}

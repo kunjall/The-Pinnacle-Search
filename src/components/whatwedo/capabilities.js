@@ -27,17 +27,42 @@ export default function BasicStack() {
       <Stack spacing={1}>
       <Item sx={{ fontSize: '16px' }}>
           <b>
+          Manufacturer of technical clothing ( -50 C , Bullet proof Jackets ,Fire Resistant ,Wind Resistant) ,and other specialized garments for the defense, medical and other industries.
+          </b>
+        </Item>
+        <Item sx={{ fontSize: '16px' }}>
+          <b>
+          Manufacturer of Personal Protective Equipment Kit / Face Masks / Face Shields etc.
+          </b>
+        </Item>
+        <Item sx={{ fontSize: '16px' }}>
+          <b>
+          Offered various projects in / with MOD for Make In India program for Nano technology coating of guns, ammunitions, artillery  and various other applications. 
+          </b>
+        </Item>
+        <Item sx={{ fontSize: '16px' }}>
+          <b>
+          Having capabilities of manufacturing various parts of AK 203 with our Belarus partners. 
+          </b>
+        </Item>
+      <Item sx={{ fontSize: '16px' }}>
+          <b>
             Full Turnkey Telecom Implementation team for Fibre BTS installation,Installation GSM Antennae, MW Link, Electrical, Civil & Infra Equipments.
           </b>
         </Item>
         <Item sx={{ fontSize: '16px' }}>
           <b>
-            Construction of roads, flyovers, bridges & hangars.
+            Construction & Maintenance of roads, flyovers, bridges & hangars.
           </b>
         </Item>
         <Item sx={{ fontSize: '16px' }}>
           <b>
             Tower Site Acquisition from Govt & Private agencies.
+          </b>
+        </Item>
+        <Item sx={{ fontSize: '16px' }}>
+          <b>
+          Expertise of developing armored vehicles with a proven technology and track record from Turkey.
           </b>
         </Item>
         <Item sx={{ fontSize: '16px' }}>
@@ -77,8 +102,7 @@ export default function BasicStack() {
         </Item>
         <Item sx={{ fontSize: '16px' }}>
           <b>
-            Execution of Gas Pipelines projects.
-          </b>
+          Laying of Gas, Water & Sewerage Pipelines.          </b>
         </Item>
         <Item sx={{ fontSize: '16px' }}>
           <b>

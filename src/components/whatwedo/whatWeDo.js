@@ -2,7 +2,7 @@ import React from 'react';
 import '../../assets/styles/projects.css';
 import List from '../whatwedo/capabilities'
 // import Manpower from '../whatwedo/manpower'
-import Machinery from '../whatwedo/machinery'
+// import Machinery from '../whatwedo/machinery'
 // import Manpower from '../../assets/images/manpower.png'
 import Footer from '../Footer/footer'
 
@@ -22,10 +22,10 @@ const Vision = () => {
       </div>       */}
       {/* <Manpower /> */}
       {/* <img src={Manpower} alt='Indus Networks' style={{ width: '80%', height: 'auto', display: 'block', margin: 'auto' }} /> */}
-      <div className="machines">
+      {/* <div className="machines">
         <p className='machine'> Machinery & Tools</p>
       </div>      
-      <Machinery  />
+      <Machinery  /> */}
       <Footer style={{marginTop: '20px'}} />
     </div>
   );

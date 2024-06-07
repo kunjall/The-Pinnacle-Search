@@ -13,6 +13,12 @@ import PeopleIcon from '@mui/icons-material/People';
 import Airtel from '../../assets/images/airtel.png';
 import Jio from '../../assets/images/jio.png';
 import Indus from '../../assets/images/indus.png';
+import VI from '../../assets/images/Vodafone.png';
+import AIIMS from '../../assets/images/AIIMS.png';
+import PGIMS from '../../assets/images/PGIMS.png';
+import HMC from '../../assets/images/hmc.jpeg';
+import ODISHA from '../../assets/images/odisha.png';
+
 // import AssuredWorkloadIcon from '@mui/icons-material/AssuredWorkload';
 
 const Home = () => {
@@ -66,6 +72,12 @@ const Home = () => {
           <img src={Airtel} alt='Airtel' />
           <img src={Jio} alt='Jio' />
           <img src={Indus} alt='Indus Networks' />
+          <img src={VI} alt='Vodafone Idea' />
+          <img src={AIIMS} alt='AIIMS' />
+          <img src={PGIMS} alt='Vodafone Idea' />
+          <img src={HMC} alt='Vodafone Idea' />
+          <img src={ODISHA} alt='Vodafone Idea' />
+
         </div>
       </div>
       {/* <div className='compliance'>
